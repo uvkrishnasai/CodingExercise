@@ -6,7 +6,7 @@ This repository is created to push the following BCBS coding exercises:
 2. Employee Leave/Vacation tracking App
 
 -----------------------------------------------------------------------------------------------------------
-ENCODER/DECODER Algorithm
+1. ENCODER/DECODER Algorithm
 -------------------------
 The code corresponding this exercise is present in the following location:
 https://github.com/uvks/BCBS-CodingExcercise/tree/master/EncryptionAlgorithm
@@ -33,8 +33,9 @@ Execution
 ---------
 Run Encryption class
 -----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
-Employee Leave/Vacation tracking App
+2. Employee Leave/Vacation tracking App
 -----------------------------------
 The code corresponding this exercise is present in the following location:
 https://github.com/uvks/BCBS-CodingExcercise/tree/master/employee-vacation-app
