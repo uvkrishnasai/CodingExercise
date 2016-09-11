@@ -1,9 +1,10 @@
 #README
 
 This repository is created to push the following BCBS coding exercises:
+
 1. ENCODER/DECODER Algorithm
 2. Employee Leave/Vacation tracking App
-3. 
+
 -----------------------------------------------------------------------------------------------------------
 ENCODER/DECODER Algorithm
 -------------------------
@@ -35,6 +36,42 @@ Run Encryption class
 
 Employee Leave/Vacation tracking App
 -----------------------------------
-Assumptions
+The code corresponding this exercise is present in the following location:
+https://github.com/uvks/BCBS-CodingExcercise/tree/master/employee-vacation-app
+
+Requirement Assumptions
+----------------------
+Build an Application to keep track of vacation/leaves of employees
+
+Design & Explanation:
+---------------------
+Used Spring boot to create the application
+Created an UI page to Create Employee, getEmplyeeById and getAllEmployees
+Used spring MVC design pattern
+Used Restful WebServices to expose the Services - createEmployee, getEmployeeByEmplId, getAllEmployees, addEmployeeVacation
+Used DAO Pattern to persist and retrieve data
+Used H2 Inmemory database to store the data
+Used Maven to build the project
+Used JSTL and spring form taglibs to diaplay the data
+
+Following are the design patterns used while developing the applciation:
+(i)   Factory pattern - To create and get DB connections
+(ii)  Singleton pattern - To create single instance of service and dao implementations.
+(iii) MVC pattern - To persist and retrieve data to and from UI, database
+(iv)  Filter Pattern - To filter the input request URL and invoke corresponding contoller/servlet
+(v)   Composite pattern - To treat employee and vacation as single object and display in the front-end
+(vi)  Facade Pattern- At every stage, the interfaces or controller hides the complexities of the system
+(vii) Mediator pattern - Restful webservices as the mediator between Spring web controller and backEnd services
+(viii)Front Controller pattern - All the input requests are controlled by a single Front controller and dipatched to their corresponding servlets
+(ix)  DAO pattern - To persist and retreive information to/from database.
+
+Execution
 -----------
+Build the application using maven, e.g mvn clean install eclipse:eclipse
+Run Application.java file
+Enter the url in browser - http://localhost:8080/emp-vac-app/web/ 
+
+Conclusion
+------------
+I am able to finish the exercise. It is a working application but for time being did not implement some of the functionalities.
 
