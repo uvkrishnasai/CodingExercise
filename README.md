@@ -80,7 +80,7 @@ Uncomment the code in the following 3 places of MyAppBeanConfiguration.java, reb
 
 Conclusion
 ------------
-I am able to finish the exercise. It is a working application (not fully tested), for time being did not implement some of the functionalities like adding vacations from UI, etc.
+I am able to finish the exercise. It is a working application (not fully tested), for time being did not create Value/model objects (Used entity objects instead) & did not implement some of the functionalities like adding vacations from UI, etc.
 
 UI images are added to the wiki.
 https://github.com/uvks/BCBS-CodingExcercise/wiki
